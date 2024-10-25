@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud-config
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: URL_ADDRESS
+          search-paths: respo
+          username: EMAIL
+          password: zhangzhigang1989
